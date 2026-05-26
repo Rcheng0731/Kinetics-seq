@@ -15,7 +15,7 @@ pysam 0.20.0
 ```
 
 ## Obtaining the Expression Matrix for Kinetics-seq
-1. 1_Preprocessing: Raw FASTQ files were processed using DynamicEX to generate the initial expression matrix. Aligned BAM files were mapped to the standard reference genome to quantify the expression matrices of newly transcribed and pre-existing RNAs. A binomial mixture model was applied to correct the expression signals of new RNAs from Kinetics-seq data and estimate the substitution rate induced by metabolic RNA labeling.
+1. 01_Preprocessing: Raw FASTQ files were processed using DynamicEX to generate the initial expression matrix. Aligned BAM files were mapped to the standard reference genome to quantify the expression matrices of newly transcribed and pre-existing RNAs. A binomial mixture model was applied to correct the expression signals of new RNAs from Kinetics-seq data and estimate the substitution rate induced by metabolic RNA labeling.
 2. 02_computing: Kinetic parameters including RNA synthesis and degradation rates of each gene in individual cells were calculated based on the newly transcribed RNA matrix.
 3. 03_analysis: Scripts for generating all figures presented in the manuscript.
 
